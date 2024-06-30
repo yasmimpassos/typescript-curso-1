@@ -5,7 +5,9 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "skipLibCheck": true,
-        "moduleResolution": "node"
+        // "moduleResolution": "node",
+        "removeComments": true,
+        "strictNullChecks": true
     },
     "include": ["app/**/*"],
     
